@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 env:
-  PROJECT_ID: ${{secrets.GKE_PROJECT}}
+  PROJECT_ID: ctse-inventory-management
   GKE_CLUSTER: kb-ctse-inventory-management
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: kb-ctse-inventory-management
