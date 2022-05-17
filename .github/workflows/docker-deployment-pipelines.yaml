@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
   GKE_CLUSTER: kb-ctse-inventory-management
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: github-actions-gke
+  DEPLOYMENT_NAME: kb-ctse-inventory-management
   IMAGE: github-actions-gke-image
   TAG: 1.0.0
  
