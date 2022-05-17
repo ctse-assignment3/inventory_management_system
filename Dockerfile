@@ -1,9 +1,9 @@
-FROM node:14
-WORKDIR /backend
+FROM node:14-alpine
+WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
 
-Expose 8085
+EXPOSE 8085
 
 CMD npm start
