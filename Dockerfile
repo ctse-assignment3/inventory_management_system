@@ -3,5 +3,4 @@ WORKDIR /backend
 COPY package.json .
 RUN npm install
 COPY . .
-RUN cd backend
-CMD npm start
+CMD cd backend && npm start
