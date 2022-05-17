@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: docker-k8s
-        image: sanduit19177106/ctse_inventory_app:v2
+        image: gcr.io/PROJECT_ID/IMAGE:TAG
         ports:
         - containerPort: 8085
